@@ -1,3 +1,5 @@
+Steeven Sanchez
+
 1. Intalar dependencias con el comando
 
 "npm run i"  o "npm run install"
@@ -9,7 +11,7 @@
 
 ---------------------------------------------
 
--- Iniciar nuestro servidor del proyecto 
+-- Iniciar nuestro servidor del proyecto para el frontend
 3. Ejecutar el comando 
 
 "npm run dev"
