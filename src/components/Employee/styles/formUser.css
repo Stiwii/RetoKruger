@@ -1,0 +1,22 @@
+
+
+.form_c-label{
+    display: flex;
+    justify-content: left;
+    padding-left: 100px;
+}
+.form_check{
+    margin-left: 20px;    
+}
+.form_check:hover{
+    cursor: pointer;
+}
+.form_check:active{
+    transform: translateY(2px);
+}
+.activate{
+    background-color: rgb(2, 205, 2);
+}
+.inp{
+    width: 250px;
+}

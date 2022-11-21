@@ -1,0 +1,59 @@
+{
+  "empleado": [
+    {
+      "id": 0,
+      "cedula": "1234451234",
+      "nombres": "Pepe Jose",
+      "apellidos": "Ortega Ramirez",
+      "email": "stiwers1997@gmail.com",
+      "user": "abc",
+      "password": "abc",
+      "fecha_nacimiento": "2019/02/13",
+      "direccion": "Los bancos",
+      "celular": "098654720",
+      "vacunado": "false",
+      "vacuna": "AstraZeneca",
+      "fecha_vacuna": "2022/11/03",
+      "numero_dosis": "2"
+    },
+    {
+      "id": 1,
+      "cedula": "0600526386",
+      "nombres": "Matias Joselo",
+      "apellidos": "Asqui ",
+      "email": "matias@gmail.com",
+      "user": "matias123",
+      "password": "123",
+      "fecha_nacimiento": "23/11/1995",
+      "direccion": "Los bancos",
+      "celular": "0987654321",
+      "vacunado": "false",
+      "vacuna": "",
+      "fecha_vacuna": "",
+      "numero_dosis": null
+    },
+    {
+      "cedula": "1234451234",
+      "nombres": "Pepe Jose",
+      "apellidos": "Alzar Santillan",
+      "email": "stiwers1997@gmail.com",
+      "user": "pepebyw",
+      "password": "qAFrHmr-2C",
+      "fecha_nacimiento": "2013/02/06",
+      "direccion": "Los bancos",
+      "celular": "123456789",
+      "vacunado": "true",
+      "vacuna": "Jhonson&Jhonson",
+      "fecha_vacuna": "2022/02/16",
+      "numero_dosis": "2",
+      "id": 2
+    }
+  ],
+  "admin": [
+    {
+      "id": 0,
+      "user": "admin",
+      "password": "root"
+    }
+  ]
+}

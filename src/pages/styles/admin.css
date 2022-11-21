@@ -1,0 +1,84 @@
+.admin_container{
+    max-height: 100%;
+}
+
+.admin_header{
+    background-color: var(--bg-general);
+    width: 100vw; 
+    text-transform: capitalize;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.btn_create{
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.164);
+    border: 1px solid black;
+}
+.btn_log-out{
+    padding: 3px 8px;
+    font-size: 500;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.164);
+
+}
+.btn_create:hover,.btn_log-out:hover{
+    box-shadow: 0 0 8px black;
+}
+.btn_create:active,.btn_log-out:active{
+    transform: translateY(2px);
+}
+.users-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: transform 150ms ease,
+    box-shadow 150ms ease;
+}
+.admin_form{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e2e2935e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.disable_form{
+    display: none;
+}
+.admin_form-x{
+    position: absolute;
+    top:50px;
+    right: 50px;
+    font-size: 50px;
+}
+.admin_form-x:hover{
+    border-radius: 50%;
+    box-shadow: 0 0 8px black;
+}
+.admin_form-x:active{
+    transform: translateY(2px);
+}
+
+.users-find{
+    width: 300px;
+    height: 100vh;
+    background-color: red;
+}
+.filtrar_users{
+position: absolute;
+top: 20px;
+left: 50%;
+transform: translateX(-50%);
+}

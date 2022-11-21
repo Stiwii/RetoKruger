@@ -1,0 +1,48 @@
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
+    input[type=number] { -moz-appearance:textfield; }
+
+
+.form_create{
+    box-shadow: 0 0 8px black;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_create-title{
+    background-color:  #e2e293fd;
+    padding: 15px 20px;
+}
+.form_create-item{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: right;
+}
+.form_create-label{
+    font-weight: 500;
+}
+.form_create-input{
+    width: 300px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.form-submit{
+    padding: 10px 20px;
+    width: 100px;
+    margin: 10px auto;
+    font-weight: 500;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.201);
+}
+.form-submit:active{
+    transform: translateY(2px);
+}
+.form-submit:hover{
+    box-shadow: 0 0 8px black;
+}

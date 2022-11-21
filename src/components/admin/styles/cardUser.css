@@ -1,0 +1,71 @@
+.userCard {
+  background-color: white;
+  margin-top: 20px;
+  border: 1px solid #ccc9;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.userCard:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 10px #0005;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.user_name {
+  padding: 10px 20px;
+  background-color: var(--bg-general);
+}
+
+.user_list {
+  list-style: none;
+  padding: 15px 20px;
+}
+
+.user_list-vacuna {
+  padding-left: 25px;
+}
+
+.user_span{
+  font-weight: 800;
+  margin-right: 5px;
+}
+.user_item{
+  padding-bottom: 5px;
+}
+
+/* botones de elimininar y Modificar */
+.user__footer{
+  display: flex;
+  position: absolute;
+  gap: 10px;
+  justify-content: flex-end;
+  right: 5px;
+  bottom: 5px;
+}
+.user__btn{
+  color: white;
+  width: 35px;
+  aspect-ratio: 1;
+  border-radius: 5px;
+}
+.user__btn:first-child{
+  color: white;
+  background-color: rgb(234, 142, 142);
+  border: 1px solid #ccc9;
+}
+.user__btn:last-child{
+  color: black ;
+  border: 1px solid #ccc9;
+}
+.user__btn:hover{
+  cursor: pointer;
+  color: rgb(48, 42, 42);
+  font-size: 1.1rem;
+  box-shadow: 0 0 8px 0;
+  transition: font-size 200ms ease;
+ }

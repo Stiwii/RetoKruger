@@ -1,0 +1,106 @@
+.home_container{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-general);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+.home_h1{
+    text-shadow: 0 0 8px #B8704B;
+    text-transform: uppercase;
+    color: #AA5A3C;
+}
+.home_h2{
+    padding-top: 10px;
+    color: var(--txt-general);
+}
+
+.home_div{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.home_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.home_img-img{
+    width: 100%;
+    max-width: 450px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow:  2px 2px 2px #AA5A3C;
+    
+}
+
+.home_img-p{
+    padding-top: 30px;
+}
+
+.home_roles{
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.home_roles-btn{
+    display: flex;
+    gap: 20px;
+}
+.home_rol-btn{
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: var(--txt-general);;
+    background-color: #78844b77;
+    box-shadow: 0 0 8px var(--txt-general);
+    cursor: pointer;
+    animation: all 1s ease;
+    font-weight: 800;
+}
+
+.home_rol-btn:hover{
+    text-shadow: 0 0 8px white;
+    background-color: #eaff9f;
+    scale: 1.1;
+    animation: all 1s ease ;
+}
+.home_rol-btn:active{
+    transform: translateY(2px);
+}
+
+.home_p{
+    padding-top: 10px;
+}
+
+.home_login{
+    display: none;
+    background-color:rgba(210, 210, 210, 0.523);
+    backdrop-filter: blur(8px);
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 0;
+}
+
+.home_login.active_login{
+    display: flex;
+}
+
