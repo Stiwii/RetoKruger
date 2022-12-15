@@ -13,7 +13,7 @@ const Admin = () => {
   const [users, setUsers] = useState('')
   const [activateForm, setActivateForm] = useState(true)
   const [updateInfo, setUpdateInfo] = useState()
-  const [selectType, setSelectType] = useState('?vacunado=false')
+  const [selectType, setSelectType] = useState('todos')
   const dispatch = useDispatch()
   const roles=useSelector(state => state.roles)
 
@@ -88,7 +88,7 @@ const Admin = () => {
           <option value="?vacuna=Sputnik&vacunado=true">Vacuna: Sputnik</option>
           <option value="?vacuna=AstraZeneca&vacunado=true">Vacuna: AstraZeneca</option>
           <option value="?vacuna=Pfizer&vacunado=true">Vacuna: Pfizer</option>
-          <option value="?vacuna=Jhonson&Jhonson&vacunado=true">Vacuna: Jhonson&Jhonson</option>
+          <option value="?vacuna=JhonsonJhonson&vacunado=true">Vacuna: Jhonson&Jhonson</option>
         </select>
         </div>
       </div>

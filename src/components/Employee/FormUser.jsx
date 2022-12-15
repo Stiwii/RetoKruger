@@ -81,7 +81,7 @@ const FormUser = ({ user, setActivateForm, updateUser, activateForm, getUser }) 
               <label htmlFor='vacuna'>Pfizer</label> 
                 </li>
                 <li>
-                <input type="radio" id="vacuna" value="Jhonson&Jhonson"  {...register('vacuna')}/>
+                <input type="radio" id="vacuna" value="JhonsonJhonson"  {...register('vacuna')}/>
               <label htmlFor='vacuna'>Jhonson&Jhonson</label>
 
                 </li>
